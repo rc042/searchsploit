@@ -13,7 +13,7 @@ searchsploit is a command line search tool for Exploit-DB that also allows you t
 
 ## Dockerfile
 
-You can check the build at https://hub.docker.com/r/reedcrif/searchploit
+You can check the build at https://hub.docker.com/r/reedcrif/searchsploit
 
 ## How to use this image
 
