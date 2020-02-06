@@ -23,7 +23,7 @@ You can check the build at https://hub.docker.com/r/reedcrif/searchploit
  ### Case 1
  
  ```
- :~$ sudo docker run -it --rm reedcrif/searchploit docker
+ :~$ sudo docker run --rm reedcrif/searchploit docker
 [i] Found (#1): /exploit-database/files_exploits.csv
 [i] To remove this message, please edit "/exploit-database/.searchsploit_rc" for "files_exploits.csv" (package_array: exploitdb)
 
@@ -50,7 +50,7 @@ Shellcodes: No Result
  ### Case 2, with URL & overflow
 
 ```
-~$ sudo docker run -it --rm reedcrif/searchploit docker -w -o
+~$ sudo docker run --rm reedcrif/searchploit docker -w -o
 [i] Found (#1): /exploit-database/files_exploits.csv
 [i] To remove this message, please edit "/exploit-database/.searchsploit_rc" for "files_exploits.csv" (package_array: exploitdb)
 
